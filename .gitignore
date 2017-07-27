@@ -1,0 +1,17 @@
+.gradle/
+out/
+.idea/
+build/
+classes/
+**/log/
+**/*.log
+**/*.log.*
+**/application-local.properties
+**/bootstrap-local.properties
+.DS_Store
+*~
+.local/
+local/
+*.iml
+*.ipr
+*.iws

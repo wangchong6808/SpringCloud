@@ -1,0 +1,5 @@
+rootProject.name = 'SampleApp'
+include 'UserManagement'
+include 'ResourceManagement'
+include 'bootstrap'
+

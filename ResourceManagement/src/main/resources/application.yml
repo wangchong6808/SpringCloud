@@ -1,0 +1,12 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: resource-management
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+config:
+  label: resource
+  key: resource_key

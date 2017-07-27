@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="bootstrap_main" target="1.8" />
+      <module name="bootstrap_test" target="1.8" />
+      <module name="ResourceManagement_main" target="1.8" />
+      <module name="ResourceManagement_test" target="1.8" />
+      <module name="SampleApp_main" target="1.8" />
+      <module name="SampleApp_test" target="1.8" />
+      <module name="UserManagement_main" target="1.8" />
+      <module name="UserManagement_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
