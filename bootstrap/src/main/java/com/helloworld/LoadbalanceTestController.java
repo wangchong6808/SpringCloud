@@ -1,5 +1,6 @@
 package com.helloworld;
 
+import com.helloworld.resource.ResourceDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,6 +19,7 @@ public class LoadbalanceTestController {
 
     @GetMapping
     public String getResource(){
+        ResourceDTO resourceDTO = new ResourceDTO();
         return resourceClient.getResource()+ " loadLabel:"+label;
     }
 }

@@ -22,6 +22,10 @@ bootRun {
     addResources = true
 }
 
+dependencies{
+    compile project(':ResourceManagement')
+}
+
 //apply plugin: 'org.junit.platform.gradle.plugin'
 
 
