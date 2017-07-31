@@ -1,1 +1,1 @@
-docker run --rm --user $UID -v $(pwd):/opt/app -w /opt/app --env GRADLE_USER_HOME=/opt/app/.gradle java:8 ./gradlew build
+docker run --rm --user "$(id -u):$(id -g)" -v $(pwd):/opt/app -w /opt/app --env GRADLE_USER_HOME=/opt/app/.gradle java:8 ./gradlew build
